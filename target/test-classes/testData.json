@@ -1,0 +1,31 @@
+{
+  "authorizationTest": [
+    {
+      "login": "",
+      "password": ""
+    }
+  ],
+  "alertsTest": [
+    {
+      "jsAlertText": "I am a JS Alert",
+      "jsAlertResultText": "You successfully clicked an alert",
+      "jsConfirmText": "I am a JS Confirm",
+      "jsConfirmResultText": "You clicked: OK",
+      "jsPromptText": "I am a JS prompt",
+      "jsPromptResultText": "You entered: ",
+      "lengthRandomText": 10
+    }
+  ],
+  "sliderTest": [
+    {
+      "minSliderCount": 1,
+      "maxSliderCount": 5
+    }
+  ],
+  "hoversTest": [
+    {
+      "userNumber" : 1
+    }
+  ]
+}
+
