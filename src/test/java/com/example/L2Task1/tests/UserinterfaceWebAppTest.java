@@ -68,7 +68,7 @@ public class UserinterfaceWebAppTest extends BaseTest {
         welcomePage = new WelcomePage();
         Assert.assertTrue(welcomePage.state().isDisplayed());
 
-        AqualityServices.getLogger().info("Go to next page");
+        AqualityServices.getLogger().info("Go to next page:");
         welcomePage.clickNextPageLink();
         registrationPage = new RegistrationPage();
         Assert.assertTrue(registrationPage.getLoginForm().state().isDisplayed());
